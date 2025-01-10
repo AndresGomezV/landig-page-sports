@@ -22,7 +22,7 @@
     <main>
       <!-- Navbar -->
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="logo.png" alt="logo" class="img-fluid" />
@@ -164,7 +164,7 @@
           ></button>
         </div>
         <div class="offcanvas-body">
-          <p>Tu carrito está vacío</p>
+          <p id="contadorCarrito">Tu carrito está vacío</p>
         </div>
       </div>
       <!-- Carousel -->
@@ -224,7 +224,7 @@
       </div>
       <!--Productos destacados-->
       <div class="productos-deportivos text-center container-fluid">
-        <h2 class="fs-1 fw-bold">Productos destacados</h2>
+        <h2 class="fs-1 fw-bold">Productos Destacados</h2>
         <article>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -370,7 +370,7 @@
                         Eleva tu estilo informal durante el fin de semana.
                       </p>
                       <p class="card-text">$520.000</p>
-                      <button type="button" class="Boton-comprar">
+                      <button onclick="carrito()" type="button" class="Boton-comprar">
                         Comprar
                       </button>
                     </div>
@@ -390,7 +390,7 @@
                         nivel.
                       </p>
                       <p class="card-text">$380.000</p>
-                      <button type="button" class="Boton-comprar">
+                      <button onclick="carrito()" type="button" class="Boton-comprar">
                         Comprar
                       </button>
                     </div>
@@ -409,7 +409,7 @@
                         Proporciona una "sensación de gravedad cero".
                       </p>
                       <p class="card-text">$500.000</p>
-                      <button type="button" class="Boton-comprar">
+                      <button onclick="carrito()" type="button" class="Boton-comprar">
                         Comprar
                       </button>
                     </div>
@@ -428,7 +428,7 @@
                         La parte superior transpirable mantiene los pies frescos
                       </p>
                       <p class="card-text">$370.000</p>
-                      <button type="button" class="Boton-comprar">
+                      <button onclick="carrito()" type="button" class="Boton-comprar">
                         Comprar
                       </button>
                     </div>
@@ -562,5 +562,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script
+    src="script.js">
+    </script>
   </body>
 </html>
