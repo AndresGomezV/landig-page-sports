@@ -81,7 +81,7 @@ html {
 
 .btn:active,
 .nav-link:active {
-  transform: scale(0.9); /* Aumenta el tamaño del ícono al 110% */
+  transform: scale(0.9); 
 }
 
 .banner-promocional1 {
