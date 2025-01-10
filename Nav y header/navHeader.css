@@ -1,0 +1,85 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  font-family: "Raleway", serif !important;
+}
+
+.navbar-brand img {
+  /* logo */
+  max-width: 200px; /* Tamaño máximo para pantallas grandes */
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    /* logo */
+    max-width: 100px; /* Tamaño reducido en pantallas pequeñas */
+    max-height: 35px;
+  }
+
+  .navbar .form-control {
+    width: 100%; /* La barra de búsqueda ocupa todo el espacio disponible */
+    margin-bottom: 10px; /* Espaciado para evitar solapamientos */
+  }
+}
+
+.d-flex .btn-link svg {
+  fill: black !important; /* Color de los iconos */
+}
+
+.offcanvas-title {
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  font-family: "Raleway", serif !important;
+}
+
+.dropdown-item:active {
+  background-color: #000000 !important; /* Color de fondo al hacer click */
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    font-size: 1.2rem;
+    border: none; /* Elimina el borde */
+    padding: 0.25rem 0.75rem; /* Ajusta el padding */
+  }
+
+  .navbar-toggler-icon {
+    width: 1.5rem; /* Ajusta el ancho del icono */
+    height: 1.5rem; /* Ajusta la altura del icono */
+  }
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Elimina el borde azul por defecto */
+  box-shadow: none; /* Elimina cualquier sombra que aparezca cuando el botón está activo */
+}
+
+.navbar-nav {
+  display: flex; /* Para asegurar que los enlaces estén en línea */
+  flex-direction: row; /* Asegura que los enlaces se alineen horizontalmente */
+}
+
+.btn,
+.nav-link {
+  transition: transform 0.2s ease; /* Suaviza la transición */
+  display: inline-block; /* Asegura que el enlace se mantenga en línea */
+}
+
+.btn:hover,
+.nav-link:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del ícono al 110% */
+}
+
+.btn:active,
+.nav-link:active {
+  transform: scale(0.9); /* Aumenta el tamaño del ícono al 110% */
+}
