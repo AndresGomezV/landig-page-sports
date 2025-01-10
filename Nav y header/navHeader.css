@@ -83,3 +83,88 @@ html {
 .nav-link:active {
   transform: scale(0.9); /* Aumenta el tamaño del ícono al 110% */
 }
+
+.banner-promocional1 {
+  background-color: #ff7f11;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.banner-promocional p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.banner-promocional2 {
+  background-color: #ff7f11;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.text-left {
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  font-family: "Raleway", serif !important;
+  color: white;
+  font-weight: bold;
+}
+
+.fs-2,
+.fs-1 {
+  padding: 10px;
+  font-family: "Raleway", serif !important;
+}
+
+#foot {
+  background-color: #ff7f11;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.secproductos {
+  margin: 40px;
+}
+.card {
+  margin: 20px;
+}
+.botonColor {
+  background: #ff7f11;
+}
+.Boton-comprar {
+  background: #ff7f11;
+  border-radius: 20px;
+  width: 60%;
+}
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card {
+    padding: 0; /* O ajusta según el diseño */
+    margin: 0 auto; /* Centra las cards */
+  }
+
+/* Diseño para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%; /* Cada card ocupa todo el ancho en móviles */
+
+    display: flex;
+    flex-direction: column;
+  }
+}
