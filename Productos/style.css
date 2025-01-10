@@ -1,0 +1,31 @@
+/* 000000 Negro
+FFFFFF Blanco
+BEB7A4 Gris
+FF7F11 Narnaja
+Ff1B1C Rojo */
+
+
+html {
+ font-family: "Poppins", sans-serif;
+}
+.secproductos{
+    margin: 40px;
+    
+}
+.card{
+    margin: 20px;
+}
+.botonColor{
+    background: #FF7F11;
+}
+.Boton-comprar{
+    background: #FF7F11;
+    border-radius: 20px;
+    width: 60%;
+}
+.card-img-overlay{
+    display : flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
