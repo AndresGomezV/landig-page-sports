@@ -135,11 +135,9 @@ p {
 }
 
 .secproductos {
-  margin: 40px;
+  margin:40px;
 }
-.card {
-  margin: 20px;
-}
+
 .botonColor {
   background: #ff7f11;
 }
@@ -154,17 +152,65 @@ p {
   align-items: flex-end;
 }
 
-.card {
-    padding: 0; /* O ajusta según el diseño */
-    margin: 0 auto; /* Centra las cards */
-  }
-
 /* Diseño para dispositivos móviles */
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 100%; /* Cada card ocupa todo el ancho en móviles */
-
+@media (max-width: 767px) {
+  .con-cards-categorias{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
+  .con-cards-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    margin: 20px;
+  }
+  .tm-imagenes{
+    width: 400px;
+    height: 220px;
+  }
+}
+
+
+ @media (min-width: 768px) and (max-width: 1210px){
+  .con-cards-productos{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+  }
+  .card {
+    margin: 10px;
+  }
+  .tm-imagenes{
+    width: 520px;
+    height: 280px;
+  }
+  .del-text{
+    color: rgba(0, 0, 0, 0.0);
+  }
+} 
+
+@media (min-width: 1211px) {
+  .con-cards-categorias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .con-cards-productos{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    margin: 10px;
+  }
+
+  .tm-imagenes{
+    width: 500px;
+    height: 281px;
+  }
+
+
+
 }

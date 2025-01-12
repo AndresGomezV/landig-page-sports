@@ -223,13 +223,14 @@
         </button>
       </div>
       <!--Productos destacados-->
-      <div class="productos-deportivos text-center container-fluid">
+      <div class="container-fluid productos-deportivos text-center ">
         <h2 class="fs-1 fw-bold">Productos Destacados</h2>
         <article>
+          
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h3 class="fs-2 fw-bold">MARCAS</h3>
-              <div class="carousel">
+              <div class="carousel align-items-center">
                 <div
                   id="carouselExampleDark"
                   class="carousel carousel-dark slide"
@@ -257,22 +258,22 @@
                     ></button>
                   </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active" data-bs-interval="1000">
                       <img
                         src="Pictures/nike.png"
-                        class="d-block w-30"
+                        class="d-block w-30 tm-imagenes"
                         alt="nike"
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-end fs-3">NIKE</h5>
-                        <p class="text-end fs-6">
+                        <h5 class="text-end fs-3 ">NIKE</h5>
+                        <p class="text-end fs-6 del-text">
                           Compra zapatos Nike por su diseño innovador comodidad
                           excepcional
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           y durabilidad. Ideales para deportes o estilo casual
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           ofrecen calidad premium y un ajuste perfecto para
                           cualquier ocasión.
                         </p>
@@ -282,41 +283,41 @@
                     <div class="carousel-item" data-bs-interval="2000">
                       <img
                         src="Pictures/ADIDAS.jpg"
-                        class="d-block w-30"
+                        class="d-block w-30 tm-imagenes"
                         alt="ADIDAS"
                       />
                       <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-end fs-3">ADIDAS</h5>
-                        <p class="text-end fs-6">
+                        <h5 class="text-end fs-3 ">ADIDAS</h5>
+                        <p class="text-end fs-6 del-text">
                           "Compra zapatos Adidas por su calidad, comodidad y
                           diseño innovador.
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           Ideales para deportes y estilo diario, ofrecen
                           durabilidad, tecnología
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           avanzada y un look moderno que destaca."
                         </p>
                       </div>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img
                         src="Pictures/puma.jpg"
-                        class="d-block w-30"
+                        class="d-block w-30 tm-imagenes"
                         alt="puma"
                       />
                       <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-end fs-3">PUMA</h5>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           "Compra zapatos PUMA por su estilo moderno, comodidad
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           excepcional y durabilidad. Perfectos para cualquier
                           actividad,
                         </p>
-                        <p class="text-end fs-6">
+                        <p class="text-end fs-6 del-text">
                           combinan innovación y diseño para destacar en cada
                           paso que des.
                         </p>
@@ -352,12 +353,13 @@
               </div>
             </div>
           </div>
-
-          <section class="col-md-12 secproductos">
+      
+          <section class="secproductos">
             <h3 class="fs-2 fw-bold">PRODUCTOS</h3>
-            <div class="container-fluid text-center cardsProductos">
-              <div class="row align-items-start">
-                <div class="col">
+            <div class="text-center ">
+              <div class="con-cards-productos">
+
+                <div>
                   <div class="card" style="width: 18rem">
                     <img
                       src="Pictures/ZapatoNike.jpg"
@@ -376,7 +378,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+
+                <div>
                   <div class="card" style="width: 18rem">
                     <img
                       src="Pictures/zapatoUA.png"
@@ -396,7 +399,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+
+                <div>
                   <div class="card" style="width: 18rem">
                     <img
                       src="Pictures/zapatohov.jpg"
@@ -415,7 +419,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+
+                <div>
                   <div class="card" style="width: 18rem">
                     <img
                       src="Pictures/zapatoadd.png"
@@ -433,22 +438,24 @@
                       </button>
                     </div>
                   </div>
-                </div>
+                </div> 
+
               </div>
             </div>
           </section>
 
-          <section class="col-md-12 secproductos">
+          <section class="secproductos">
+            <h3 class="fs-2 fw-bold">CATEGORÍAS</h3>
             <div class="container-fluid text-center">
-              <div class="row align-items-center">
-                <h3 class="fs-2 fw-bold">CATEGORÍAS</h3>
+              
+              <div class="con-cards-categorias">
 
-                <div class="col">
+                <div >
                   <div class="card text-bg-dark">
                     <img
                       src="Pictures/correr2.jpg"
                       class="card-img"
-                      alt="..."
+                      alt="correr"
                     />
                     <div class="card-img-overlay">
                       <h5 class="card-title fs-3">Running</h5>
@@ -456,12 +463,12 @@
                   </div>
                 </div>
 
-                <div class="col">
+                <div >
                   <div class="card text-bg-dark">
                     <img
                       src="Pictures/training2.png"
                       class="card-img"
-                      alt="..."
+                      alt="entrenar"
                     />
                     <div class="card-img-overlay">
                       <h5 class="card-title fs-3 text-xxl-end">Entrenamiento</h5>
@@ -469,18 +476,19 @@
                   </div>
                 </div>
 
-                <div class="col">
+                <div >
                   <div class="card text-bg-dark">
                     <img
                       src="Pictures/Walking.jpg"
                       class="card-img"
-                      alt="..."
+                      alt="caminar"
                     />
                     <div class="card-img-overlay">
                       <h5 class="card-title fs-3 text-xxl-end">Hikking</h5>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </section>
